@@ -4,7 +4,7 @@ Dette prosjektet er en implementering av det klassiske Snake-spillet skrevet i J
 
 ## Om prosjektet
 
-Dette Snake-prosjektet er utviklet for å demonstrere min forståelse av Java-programmering og objektorienterte prinsipper. Spillet er bygget ved hjelp av Java Swing for GUI-delen, og følger designprinsippet om Model-View-Controller (MVC) for å organisere koden på en strukturert måte.
+Dette Snake-prosjektet er utviklet som en fri semesteroppgave i INF101 VÅR 2024, og bygger på prinsipper fra Tetris. Prosjektet er laget for å demonstrere min forståelse av Java-programmering og objektorienterte prinsipper. Spillet er bygget ved hjelp av Java Swing for GUI-delen, og følger designprinsippet om Model-View-Controller (MVC) for å organisere koden på en strukturert måte.
 
 ### Arkitektur
 
@@ -22,7 +22,12 @@ Prosjektet er delt inn i tre hovedpakker:
 
 ## Komme i gang
 
-For å kjøre prosjektet, trenger du å ha Java installert på datamaskinen din. Klon prosjektet og naviger til prosjektmappen, deretter kan du bygge og kjøre det ved å bruke følgende kommandoer (hvis du bruker Maven):
+### Systemkrav
+
+- Java 11 eller nyere
+- Maven
+
+For å kjøre prosjektet, trenger du å ha Java installert på datamaskinen din. Klon prosjektet og naviger til prosjektmappen, deretter kan du bygge og kjøre det ved å bruke følgende kommandoer:
 
 ```bash
 mvn clean install
